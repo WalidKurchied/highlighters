@@ -1,0 +1,90 @@
+/* Font Colors */
+.highlighter-co-white ::selection {
+    color: var(--highlighter-white);
+}
+
+.highlighter-co-black ::selection {
+    color: var(--highlighter-black);
+}
+
+.highlighter-co-yellow ::selection {
+    color: var(--highlighter-yellow);
+}
+
+.highlighter-co-dodgerblue ::selection {
+    color: var(--highlighter-dodgerblue);
+}
+
+.highlighter-co-blue ::selection {
+    color: var(--highlighter-blue);
+}
+
+.highlighter-co-red ::selection {
+    color: var(--highlighter-red);
+}
+
+.highlighter-co-pink ::selection {
+    color: var(--highlighter-pink);
+}
+
+.highlighter-co-grey ::selection {
+    color: var(--highlighter-grey);
+}
+
+.highlighter-co-orange ::selection {
+    color: var(--highlighter-orange);
+}
+
+.highlighter-co-green ::selection {
+    color: var(--highlighter-green);
+}
+
+.highlighter-co-purple ::selection {
+    color: var(--highlighter-purple);
+}
+
+
+/* Background(bg) colors */
+.highlighter-bg-white ::selection {
+    background-color: var(--highlighter-white);
+}
+
+.highlighter-bg-black ::selection {
+    background-color: var(--highlighter-black);;
+}
+
+.highlighter-bg-yellow ::selection {
+    background-color: var(--highlighter-yellow);
+}
+
+.highlighter-bg-dodgerblue ::selection {
+    background-color: var(--highlighter-dodgerblue);
+}
+
+.highlighter-bg-blue ::selection {
+    background-color: var(--highlighter-blue);
+}
+
+.highlighter-bg-red ::selection {
+    background-color: var(--highlighter-red);
+}
+
+.highlighter-bg-pink ::selection {
+    background-color: var(--highlighter-pink);
+}
+
+.highlighter-bg-grey ::selection {
+    background-color: var(--highlighter-grey);
+}
+
+.highlighter-bg-orange ::selection {
+    background-color: var(--highlighter-orange);
+}
+
+.highlighter-bg-green ::selection {
+    background-color: var(--highlighter-green);
+}
+
+.highlighter-bg-purple ::selection {
+    background-color: var(--highlighter-purple);
+}
