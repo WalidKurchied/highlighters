@@ -14,7 +14,7 @@ yarn install highlight-selection
 ### Usage
 
 ```
-import HighLight from 'highlight-selection';
+import Highlight from 'highlight-selection';
 
 <Highlight>
     This is some text 
