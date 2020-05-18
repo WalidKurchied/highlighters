@@ -1,20 +1,13 @@
 {
   "name": "highlight-selection",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "./dist/Highlight",
-  "dependencies": {
-    "react-scripts": "3.4.1"
-  },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "publish:npm": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
@@ -40,7 +33,12 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-react"
+      "@babel/preset-react",
+      "@babel/preset-env"
     ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
   }
 }
