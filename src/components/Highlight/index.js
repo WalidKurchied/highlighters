@@ -4,7 +4,7 @@ import './styles.css';
 
 const Highlight = ({ children, color, bg, customBG, customColor }) => {
     let CustomComponent = 'span';
-    let classes = `highlighter-bg-${bg} highlighter-co-${color}`; 
+    let classes = `highlighter highlighter-bg-${bg} highlighter-co-${color}`; 
 
     return (
         <CustomComponent className={classes}>

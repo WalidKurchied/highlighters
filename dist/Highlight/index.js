@@ -10,7 +10,7 @@ const Highlight = ({
   customColor
 }) => {
   let CustomComponent = 'span';
-  let classes = `highlighter-bg-${bg} highlighter-co-${color}`;
+  let classes = `highlighter highlighter-bg-${bg} highlighter-co-${color}`;
   return /*#__PURE__*/React.createElement(CustomComponent, {
     className: classes
   }, children);
