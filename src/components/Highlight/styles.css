@@ -13,47 +13,47 @@
 }
 
 /* Font Colors */
-.highlighter-co-white ::selection {
+.highlighter-color-white ::selection {
     color: var(--highlighter-white);
 }
 
-.highlighter-co-black ::selection {
+.highlighter-color-black ::selection {
     color: var(--highlighter-black);
 }
 
-.highlighter-co-yellow ::selection {
+.highlighter-color-yellow ::selection {
     color: var(--highlighter-yellow);
 }
 
-.highlighter-co-dodgerblue ::selection {
+.highlighter-color-dodgerblue ::selection {
     color: var(--highlighter-dodgerblue);
 }
 
-.highlighter-co-blue ::selection {
+.highlighter-color-blue ::selection {
     color: var(--highlighter-blue);
 }
 
-.highlighter-co-red ::selection {
+.highlighter-color-red ::selection {
     color: var(--highlighter-red);
 }
 
-.highlighter-co-pink ::selection {
+.highlighter-color-pink ::selection {
     color: var(--highlighter-pink);
 }
 
-.highlighter-co-grey ::selection {
+.highlighter-color-grey ::selection {
     color: var(--highlighter-grey);
 }
 
-.highlighter-co-orange ::selection {
+.highlighter-color-orange ::selection {
     color: var(--highlighter-orange);
 }
 
-.highlighter-co-green ::selection {
+.highlighter-color-green ::selection {
     color: var(--highlighter-green);
 }
 
-.highlighter-co-purple ::selection {
+.highlighter-color-purple ::selection {
     color: var(--highlighter-purple);
 }
 
