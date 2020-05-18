@@ -41,4 +41,4 @@ For Example:
 </Highlight>
 ```
 
- If you want to set just the color or background color you can pass an empty prop or just pass it the value 0 or false for example color={0} that way background will still be enabled except for color it will not be. The class of the inactive bg or color will still be included in the dom but that shouldnt cause any issue at all. I am working on adding more support and functionality to this package as we speak.
+ If you want to set either the color or background color you can pass an empty string to the prop or just pass it a value like 0 or false etc for example color={0} that way background will still be enabled except for color it will fallback to the default browser selection color. The class of the inactive bg or color will still be included in the dom but that shouldnt cause any issue at all. I am working on adding more support and functionality to this package as we speak.
