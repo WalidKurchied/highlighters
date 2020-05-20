@@ -17,10 +17,9 @@ var Highlight = function Highlight(_ref) {
   var children = _ref.children,
       color = _ref.color,
       bg = _ref.bg,
-      customBG = _ref.customBG,
-      customColor = _ref.customColor;
+      disable = _ref.disable;
   var CustomComponent = 'span';
-  var classes = "highlighter highlighter-bg-".concat(bg, " highlighter-color-").concat(color);
+  var classes = "highlighter highlighter-bg-".concat(bg, " highlighter-color-").concat(color, " ").concat(disable ? 'highlighter-disable-selection' : '');
   return /*#__PURE__*/_react.default.createElement(CustomComponent, {
     className: classes
   }, children);
@@ -33,7 +32,8 @@ Highlight.propTypes = {
 };
 Highlight.defaultProps = {
   color: 'black',
-  bg: 'yellow'
+  bg: 'yellow',
+  disable: false
 };
 var _default = Highlight;
 exports.default = _default;

@@ -10,6 +10,11 @@
     --highlighter-orange: #ffa500;
     --highlighter-green: #008000;
     --highlighter-purple: #800080;
+    --highlighter-brown: #a52a2a;
+    --highlighter-maroon: #800000;
+    --highlighter-navy: #000080;
+    --highlighter-teal: #008080;
+    --highlighter-gold: #ffd700;
 }
 
 /* Font Colors */
@@ -57,6 +62,26 @@
     color: var(--highlighter-purple);
 }
 
+.highlighter-color-brown ::selection {
+    color: var(--highlighter-brown);
+}
+
+.highlighter-color-maroon ::selection {
+    color: var(--highlighter-maroon);
+}
+
+.highlighter-color-navy ::selection {
+    color: var(--highlighter-navy);
+}
+
+.highlighter-color-teal ::selection {
+    color: var(--highlighter-teal);
+}
+
+.highlighter-color-gold ::selection {
+    color: var(--highlighter-gold);
+}
+
 
 /* Background(bg) colors */
 .highlighter-bg-white ::selection {
@@ -101,4 +126,31 @@
 
 .highlighter-bg-purple ::selection {
     background-color: var(--highlighter-purple);
+}
+
+.highlighter-bg-brown ::selection {
+    background-color: var(--highlighter-brown);
+}
+
+.highlighter-bg-maroon ::selection {
+    background-color: var(--highlighter-maroon);
+}
+
+.highlighter-bg-navy ::selection {
+    background-color: var(--highlighter-navy);
+}
+
+.highlighter-bg-teal ::selection {
+    background-color: var(--highlighter-teal);
+}
+
+.highlighter-bg-gold ::selection {
+    background-color: var(--highlighter-gold);
+}
+
+.highlighter-disable-selection {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }

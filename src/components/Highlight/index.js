@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './styles.css';
 
-const Highlight = ({ children, color, bg, customBG, customColor }) => {
+const Highlight = ({ children, color, bg, disable}) => {
     let CustomComponent = 'span';
-    let classes = `highlighter highlighter-bg-${bg} highlighter-color-${color}`; 
+    let classes = `highlighter highlighter-bg-${bg} highlighter-color-${color} ${disable ? 'highlighter-disable-selection' : ''}`; 
 
     return (
         <CustomComponent className={classes}>
@@ -21,7 +21,8 @@ Highlight.propTypes = {
 
 Highlight.defaultProps = {
     color: 'black',
-    bg: 'yellow'
+    bg: 'yellow',
+    disable: false
 };
 
 export default Highlight;
