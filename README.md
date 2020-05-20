@@ -1,5 +1,5 @@
 # highlight-selection
-A simple **ReactJS** component that allow's you to change the default selection color and background of text when highlighted.
+A simple **ReactJS** component that allow's you to change the default selection color and background of text when highlighted. It also allows you to disable the selection of elements text.
 
 ### Installation 
 
@@ -31,8 +31,9 @@ By default the Highlight component will have the **yellow** background color and
 
 | Prop | Description | Type | Values
 | ----------- | ----------- | ----------- | ----------- |
-| color | sets the text color | string | white, black, yellow, dodgerblue, blue, red, pink, grey, orange, green, purple
-| bg | sets the background color | string | white, black, yellow, dodgerblue, blue, red, pink, grey, orange, green, purple
+| color | sets the text color | string | white, black, yellow, dodgerblue, blue, red, pink, grey, orange, green, purple, brown, maroon, navy, teal, gold.
+| bg | sets the background color | string | white, black, yellow, dodgerblue, blue, red, pink, grey, orange, green, purple, brown, maroon, navy, teal, gold.
+disable | disable selection of elements text | boolean | false or true (defaults to false)
 
 For Example:
 ```
